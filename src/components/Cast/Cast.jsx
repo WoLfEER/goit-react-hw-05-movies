@@ -1,6 +1,6 @@
 import { getMovieCredits } from 'utils/api';
 import { useState, useEffect } from 'react';
-import { useParams, useLocation, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Container } from 'components/GlobalStyle';
 import { Section } from 'components/Section/Section';
 import { Item, List, Title } from './Cast.styled';
