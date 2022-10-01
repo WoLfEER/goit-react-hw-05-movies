@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { SiThemoviedatabase } from 'react-icons/si';
 
 export const Form = styled.form`
     display: flex;

@@ -1,6 +1,6 @@
 import { getMovieDetails } from 'utils/api';
 import { useParams, useLocation, Outlet } from 'react-router-dom';
-import { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect } from 'react';
 import { Section } from 'components/Section/Section';
 import { Container } from 'components/GlobalStyle';
 import { AiFillBackward } from 'react-icons/ai';

@@ -1,6 +1,6 @@
 import { Searchbox } from 'components/Searchbox/Searchbox';
 import { MovieListSearch } from 'components/MovieList/MovieListSearch';
-import { useSearchParams, Outlet } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import { searchMovie } from 'utils/api';
 import { useState, useEffect } from 'react';
 
