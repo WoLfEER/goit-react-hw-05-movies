@@ -11,11 +11,11 @@ export const Link = styled(NavLink)`
     color: #fff;
     transition: all 0.2s ease-in-out;
     &.active {
-        color: #2da8d8ff;
+        color: #f2b885;
     }
     :hover:not(.active),
     :focus-visible:not(.active) {
-        color: #d9514eff;
+        color: #bf5a36;
     }
 `;
 export const HeaderStyled = styled.header`

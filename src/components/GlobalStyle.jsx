@@ -17,7 +17,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #433;
+  background-color: #0C2126;
   color: #fff;
   line-height: 1.5;
   margin: 0;
@@ -51,8 +51,8 @@ a {
 }
 img {
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 `;
 

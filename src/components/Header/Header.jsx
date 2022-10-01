@@ -1,5 +1,7 @@
 import { Outlet } from 'react-router-dom';
-import { Link, HeaderStyled } from './Header.styled';
+import { Link } from './Header.styled';
+import { Container } from 'components/GlobalStyle';
+import { HeaderStyled } from './Header.styled';
 
 const navItems = [
     { href: 'home', text: 'Home' },
@@ -8,15 +10,18 @@ const navItems = [
 
 export const Header = () => {
     return (
-        <Header>
-            <nav>
-                {navItems.map(({ href, text }) => (
-                    <li key={href}>
-                        <Link to={href}>{text}</Link>
-                    </li>
-                ))}
-                <Outlet />
-            </nav>
-        </Header>
+        <HeaderStyled>
+            <Container>
+                <nav>
+                    <ul>
+                        {navItems.map(({ href, text }) => (
+                            <li key={href}>
+                                <Link to={href}>{text}</Link>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+            </Container>
+        </HeaderStyled>
     );
 };
