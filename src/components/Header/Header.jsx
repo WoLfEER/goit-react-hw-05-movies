@@ -1,4 +1,3 @@
-import { Outlet } from 'react-router-dom';
 import { Link } from './Header.styled';
 import { Container } from 'components/GlobalStyle';
 import { HeaderStyled } from './Header.styled';
